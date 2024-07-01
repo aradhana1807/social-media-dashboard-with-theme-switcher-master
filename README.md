@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/aradhana1807/social-media-dashboard-with-theme-switcher-master)
 - Live Site URL: [Live Site in Netlify](https://socialmedia-dashboard-ui.netlify.app/)
 
 ## My process
