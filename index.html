@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=ranade@1,2&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__headings">
+          <h1>Social Media Dashboard</h1>
+          <h5>Total Followers: 1004</h5>
+        </div>
+        <div class="darkmode">
+          <div class="darkmode__switch"></div>
+        </div>
+      </div>
+
+      <div class="social-grid">
+        <div class="grid-items">
+          <div class="grid-items__heading">
+            <i class="ri-facebook-box-fill" id="fb"></i>
+            <p>@shouharu</p>
+          </div>
+
+          <div class="grid-items__followers">
+            <h1>187</h1>
+            <p>FOLLOWERS</p>
+          </div>
+
+          <div class="grid-items__change increase">
+            <i class="ri-arrow-up-s-fill"></i>
+            <p>7 Today</p>
+          </div>
+        </div>
+
+        <div class="grid-items">
+          <div class="grid-items__heading">
+            <i class="ri-twitter-fill" id="twitter"></i>
+            <p>@shouharu</p>
+          </div>
+
+          <div class="grid-items__followers">
+            <h1>104</h1>
+            <p>FOLLOWERS</p>
+          </div>
+
+          <div class="grid-items__change increase">
+            <i class="ri-arrow-up-s-fill"></i>
+            <p>2 Today</p>
+          </div>
+        </div>
+
+        <div class="grid-items">
+          <div class="grid-items__heading">
+            <i class="ri-instagram-line" id="insta"></i>
+            <p>@shouharu</p>
+          </div>
+
+          <div class="grid-items__followers">
+            <h1>204</h1>
+            <p>FOLLOWERS</p>
+          </div>
+
+          <div class="grid-items__change increase">
+            <i class="ri-arrow-up-s-fill"></i>
+            <p>4 Today</p>
+          </div>
+        </div>
+
+        <div class="grid-items">
+          <div class="grid-items__heading">
+            <i class="ri-youtube-fill" id="youtube"></i>
+            <p>@shouharu</p>
+          </div>
+
+          <div class="grid-items__followers">
+            <h1>114</h1>
+            <p>FOLLOWERS</p>
+          </div>
+
+          <div class="grid-items__change decrease">
+            <i class="ri-arrow-down-s-fill"></i>
+            <p>3 Today</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="analytics">
+        <div class="analytics-heading">
+          <h2>Overview - Today</h2>
+        </div>
+
+        <div class="analytics-grid">
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Page Views</p>
+              <h2>87</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-facebook-box-fill" id="fb"></i>
+              <div class="analytics-grid-items__change increase">
+                <i class="ri-arrow-up-s-fill"></i>
+                <p>51%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Likes</p>
+              <h2>4</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-facebook-box-fill" id="fb"></i>
+
+              <div class="analytics-grid-items__change decrease">
+                <i class="ri-arrow-down-s-fill"></i>
+                <p>1%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Profile Views</p>
+              <h2>8k</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-instagram-line" id="insta"></i>
+              <div class="analytics-grid-items__change increase">
+                <i class="ri-arrow-up-s-fill"></i>
+                <p>21%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Likes</p>
+              <h2>1897</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-instagram-line" id="insta"></i>
+              <div class="analytics-grid-items__change increase">
+                <i class="ri-arrow-up-s-fill"></i>
+                <p>51%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Retweets</p>
+              <h2>117</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-twitter-fill" id="twitter"></i>
+              <div class="analytics-grid-items__change increase">
+                <i class="ri-arrow-up-s-fill"></i>
+                <p>105%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Likes</p>
+              <h2>807</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-twitter-fill" id="twitter"></i>
+              <div class="analytics-grid-items__change increase">
+                <i class="ri-arrow-up-s-fill"></i>
+                <p>521%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Total Views</p>
+              <h2>817</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-youtube-fill" id="youtube"></i>
+              <div class="analytics-grid-items__change decrease">
+                <i class="ri-arrow-down-s-fill"></i>
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+          <div class="analytics-grid-items">
+            <div class="analytics-grid-items__data">
+              <p>Likes</p>
+              <h2>87</h2>
+            </div>
+
+            <div class="analytics-grid-items__platform">
+              <i class="ri-youtube-fill" id="youtube"></i>
+              <div class="analytics-grid-items__change decrease">
+                <i class="ri-arrow-down-s-fill"></i>
+                <p>21%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/aradhana1807">Aradhana Nayak</a>.
+    </div>
+  </body>
+</html>
